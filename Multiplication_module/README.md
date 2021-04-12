@@ -1,3 +1,4 @@
-# Bluespec
-HDL using Bluespec
-The files are executed using bsc compiler and the commands to be entered in terminal have been provided in the project report
+# Vector and Matrix Multiplication
+HDL using Bluespec SystemVerilog
+
+Please see the report to see the commands to execute the files. Details about the project can also be found in the report
