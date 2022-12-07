@@ -17,7 +17,7 @@ bsc:
 	bsc -help
 	@echo "tested bsc using >> bsc -help"
 	@echo "adding commandline to bashscript"
-	sudo echo "export PATH=$(pwd)/bsc/inst/bin:\$PATH" >> ~/.bashrc
+	sudo echo "PATH=$(pwd)/bsc/inst/bin:\$PATH" >> ~/.bashrc
 
 min:
 	@echo "This Makefile creates bsc folder and installs BlueSpec Compiler inside it"
