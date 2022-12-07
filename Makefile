@@ -1,3 +1,7 @@
+default:
+	@echo "This script is for installing Bluespec Compiler from source along with its dependencies. To install the compiler and add it to .bashrc use make bsc. To just install compiler use make min. To install installation documents too use make all."
+
+all: bsc src-docs
 bsc:
 	@echo "This Makefile creates bsc folder and installs BlueSpec Compiler inside it"
 	sudo apt-get install ghc libghc-regex-compat-dev libghc-syb-dev \
