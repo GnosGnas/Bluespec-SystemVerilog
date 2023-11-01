@@ -17,4 +17,4 @@ verilog_iverilog:
 	./out
 
 clean:
-	rm *.bo mkTb.v
+	rm *.bo mkTb.v out
